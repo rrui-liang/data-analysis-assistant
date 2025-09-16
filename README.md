@@ -19,22 +19,24 @@ For example:
 ---
 
 ## Project Structure
+```text
 data-analysis-assistant/
 ├── src/
-│ ├── finetune.py # fine-tuning script
-│ ├── infer.py # inference script (CLI)
-│ ├── app.py # Gradio demo
-│ ├── dataset.py # dataset loader
-│ └── generate_data.py # script to generate synthetic training data
-├── train_dataset_en.json # generated training dataset
+│   ├── finetune.py        # fine-tuning script
+│   ├── infer.py           # inference script (CLI)
+│   ├── app.py             # Gradio demo
+│   ├── dataset.py         # dataset loader
+│   └── generate_data.py   # synthetic data generator
+├── train_dataset_en.json  # generated training dataset
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
 ## Installation
-git clone https://github.com/rrrui-liang/data-analysis-assistant.git
+```bash
+git clone https://github.com/rrui-liang/data-analysis-assistant.git
 cd data-analysis-assistant
 
 # create venv
@@ -43,33 +45,51 @@ source venv/bin/activate
 
 # install dependencies
 pip install -r requirements.txt
+```
+
+---
 
 ## Usage
-
-# 1. Generate Training Data
+1) Generate Training Data
+```bash
 python src/generate_data.py
-
-# 2. Fine-tune the Model
+```
+2) Fine-tune the Model
+```bash
 python src/finetune.py
+```
 
-# 3. Run Inference (CLI)
+3) Run Inference (CLI)
+```bash
 python src/infer.py
+```
 
 **Example:**
-Ask: Drop duplicate rows
+```text
+Ask: Drop duplicate rows  
 Model output: df.drop_duplicates()
+```
 
-# 4. Launch Gradio App
+4) Launch Gradio App
+```bash
 python src/app.py
+```
+
+---
 
 ## Example Queries
-- “Calculate the sum of income”  
-- “Select rows where age > 30”  
-- “Group by gender and calculate average score”  
-- “Drop missing values”  
+
+“Calculate the sum of income”
+“Select rows where age > 30”
+“Group by gender and calculate average score”
+“Drop missing values”
+
+---
 
 ## Future Improvements
-- Add larger datasets to improve generalization.  
-- Experiment with quantized models for faster inference.  
-- Extend support to SQL code generation.  
 
+- Add larger datasets to improve generalization.
+- Experiment with quantized models for faster inference.
+- Extend support to SQL code generation.
+
+---
