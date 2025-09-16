@@ -1,0 +1,4002 @@
+[
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column weight",
+    "output": "df['weight'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select rows where income > 86",
+    "output": "df[df['income'] > 86]"
+  },
+  {
+    "instruction": "Sort the DataFrame by weight descending",
+    "output": "df.sort_values('weight', ascending=False)"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column height",
+    "output": "df['height'].head(10)"
+  },
+  {
+    "instruction": "Sort the DataFrame by income ascending",
+    "output": "df.sort_values('income')"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Select the last 5 rows of column age",
+    "output": "df['age'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where gender != 44",
+    "output": "df[df['gender'] != 44]"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Select rows where income != 62",
+    "output": "df[df['income'] != 62]"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Select rows where weight != 25",
+    "output": "df[df['weight'] != 25]"
+  },
+  {
+    "instruction": "Calculate the average of weight",
+    "output": "df['weight'].mean()"
+  },
+  {
+    "instruction": "Calculate the median of city",
+    "output": "df['city'].median()"
+  },
+  {
+    "instruction": "Select rows where height == 54",
+    "output": "df[df['height'] == 54]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of height",
+    "output": "df['height'].std()"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Calculate the median of city",
+    "output": "df['city'].median()"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where height == 38",
+    "output": "df[df['height'] == 38]"
+  },
+  {
+    "instruction": "Select the column gender",
+    "output": "df['gender']"
+  },
+  {
+    "instruction": "Select rows where gender == 20",
+    "output": "df[df['gender'] == 20]"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Calculate the median of weight",
+    "output": "df['weight'].median()"
+  },
+  {
+    "instruction": "Sort the DataFrame by weight descending",
+    "output": "df.sort_values('weight', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Calculate the sum of income",
+    "output": "df['income'].sum()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Calculate the maximum of gender",
+    "output": "df['gender'].max()"
+  },
+  {
+    "instruction": "Select rows where height == 38",
+    "output": "df[df['height'] == 38]"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Sort the DataFrame by city ascending",
+    "output": "df.sort_values('city')"
+  },
+  {
+    "instruction": "Select rows where city == 83",
+    "output": "df[df['city'] == 83]"
+  },
+  {
+    "instruction": "Calculate the median of gender",
+    "output": "df['gender'].median()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column income",
+    "output": "df['income'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the maximum of gender",
+    "output": "df['gender'].max()"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column gender",
+    "output": "df['gender'].head(10)"
+  },
+  {
+    "instruction": "Calculate the standard deviation of gender",
+    "output": "df['gender'].std()"
+  },
+  {
+    "instruction": "Sort the DataFrame by height descending",
+    "output": "df.sort_values('height', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column age",
+    "output": "df['age'].head(10)"
+  },
+  {
+    "instruction": "Select rows where gender == 21",
+    "output": "df[df['gender'] == 21]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column gender",
+    "output": "df['gender'].head(10)"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column city",
+    "output": "df['city'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the average of height",
+    "output": "df['height'].mean()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column city",
+    "output": "df['city'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where city < 28",
+    "output": "df[df['city'] < 28]"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the average of age",
+    "output": "df['age'].mean()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Select rows where gender > 69",
+    "output": "df[df['gender'] > 69]"
+  },
+  {
+    "instruction": "Select the column income",
+    "output": "df['income']"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Sort the DataFrame by income ascending",
+    "output": "df.sort_values('income')"
+  },
+  {
+    "instruction": "Select rows where weight != 61",
+    "output": "df[df['weight'] != 61]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Group by income and calculate the average of income",
+    "output": "df.groupby('income')['income'].mean()"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Calculate the median of height",
+    "output": "df['height'].median()"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Select rows where age < 11",
+    "output": "df[df['age'] < 11]"
+  },
+  {
+    "instruction": "Sort the DataFrame by score descending",
+    "output": "df.sort_values('score', ascending=False)"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of age",
+    "output": "df.groupby('gender')['age'].mean()"
+  },
+  {
+    "instruction": "Calculate the minimum of weight",
+    "output": "df['weight'].min()"
+  },
+  {
+    "instruction": "Calculate the sum of score",
+    "output": "df['score'].sum()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of score",
+    "output": "df['score'].std()"
+  },
+  {
+    "instruction": "Group by income and count",
+    "output": "df.groupby('income').size()"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of height",
+    "output": "df.groupby('gender')['height'].mean()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Select the last 5 rows of column income",
+    "output": "df['income'].tail(5)"
+  },
+  {
+    "instruction": "Group by age and count",
+    "output": "df.groupby('age').size()"
+  },
+  {
+    "instruction": "Select rows where city == 29",
+    "output": "df[df['city'] == 29]"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of score",
+    "output": "df.groupby('gender')['score'].mean()"
+  },
+  {
+    "instruction": "Calculate the average of age",
+    "output": "df['age'].mean()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column height",
+    "output": "df['height'].head(10)"
+  },
+  {
+    "instruction": "Calculate the median of age",
+    "output": "df['age'].median()"
+  },
+  {
+    "instruction": "Group by income and calculate the average of age",
+    "output": "df.groupby('income')['age'].mean()"
+  },
+  {
+    "instruction": "Calculate the average of age",
+    "output": "df['age'].mean()"
+  },
+  {
+    "instruction": "Select rows where age > 43",
+    "output": "df[df['age'] > 43]"
+  },
+  {
+    "instruction": "Sort the DataFrame by height descending",
+    "output": "df.sort_values('height', ascending=False)"
+  },
+  {
+    "instruction": "Select rows where age < 55",
+    "output": "df[df['age'] < 55]"
+  },
+  {
+    "instruction": "Calculate the sum of city",
+    "output": "df['city'].sum()"
+  },
+  {
+    "instruction": "Group by score and count",
+    "output": "df.groupby('score').size()"
+  },
+  {
+    "instruction": "Calculate the median of weight",
+    "output": "df['weight'].median()"
+  },
+  {
+    "instruction": "Calculate the maximum of weight",
+    "output": "df['weight'].max()"
+  },
+  {
+    "instruction": "Group by score and count",
+    "output": "df.groupby('score').size()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column weight",
+    "output": "df['weight'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the sum of gender",
+    "output": "df['gender'].sum()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Group by city and calculate the average of weight",
+    "output": "df.groupby('city')['weight'].mean()"
+  },
+  {
+    "instruction": "Select rows where score < 33",
+    "output": "df[df['score'] < 33]"
+  },
+  {
+    "instruction": "Group by city and count",
+    "output": "df.groupby('city').size()"
+  },
+  {
+    "instruction": "Group by age and calculate the average of income",
+    "output": "df.groupby('age')['income'].mean()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column age",
+    "output": "df['age'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the average of income",
+    "output": "df['income'].mean()"
+  },
+  {
+    "instruction": "Calculate the minimum of height",
+    "output": "df['height'].min()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select rows where city < 39",
+    "output": "df[df['city'] < 39]"
+  },
+  {
+    "instruction": "Select rows where age < 90",
+    "output": "df[df['age'] < 90]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of income",
+    "output": "df['income'].std()"
+  },
+  {
+    "instruction": "Calculate the sum of score",
+    "output": "df['score'].sum()"
+  },
+  {
+    "instruction": "Group by gender and count",
+    "output": "df.groupby('gender').size()"
+  },
+  {
+    "instruction": "Select rows where score == 22",
+    "output": "df[df['score'] == 22]"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Select the column income",
+    "output": "df['income']"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select rows where income == 10",
+    "output": "df[df['income'] == 10]"
+  },
+  {
+    "instruction": "Select the column age",
+    "output": "df['age']"
+  },
+  {
+    "instruction": "Select the first 10 rows of column age",
+    "output": "df['age'].head(10)"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where weight < 54",
+    "output": "df[df['weight'] < 54]"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Select the last 5 rows of column height",
+    "output": "df['height'].tail(5)"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Sort the DataFrame by gender descending",
+    "output": "df.sort_values('gender', ascending=False)"
+  },
+  {
+    "instruction": "Select rows where income == 61",
+    "output": "df[df['income'] == 61]"
+  },
+  {
+    "instruction": "Sort the DataFrame by height descending",
+    "output": "df.sort_values('height', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the sum of weight",
+    "output": "df['weight'].sum()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Sort the DataFrame by city ascending",
+    "output": "df.sort_values('city')"
+  },
+  {
+    "instruction": "Select the last 5 rows of column age",
+    "output": "df['age'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where gender == 18",
+    "output": "df[df['gender'] == 18]"
+  },
+  {
+    "instruction": "Calculate the median of age",
+    "output": "df['age'].median()"
+  },
+  {
+    "instruction": "Calculate the average of age",
+    "output": "df['age'].mean()"
+  },
+  {
+    "instruction": "Select rows where score != 50",
+    "output": "df[df['score'] != 50]"
+  },
+  {
+    "instruction": "Sort the DataFrame by gender ascending",
+    "output": "df.sort_values('gender')"
+  },
+  {
+    "instruction": "Select the first 10 rows of column height",
+    "output": "df['height'].head(10)"
+  },
+  {
+    "instruction": "Select the last 5 rows of column weight",
+    "output": "df['weight'].tail(5)"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Group by income and count",
+    "output": "df.groupby('income').size()"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column height",
+    "output": "df['height'].tail(5)"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Select the last 5 rows of column age",
+    "output": "df['age'].tail(5)"
+  },
+  {
+    "instruction": "Sort the DataFrame by age descending",
+    "output": "df.sort_values('age', ascending=False)"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Select the first 10 rows of column height",
+    "output": "df['height'].head(10)"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Select rows where weight != 82",
+    "output": "df[df['weight'] != 82]"
+  },
+  {
+    "instruction": "Calculate the median of age",
+    "output": "df['age'].median()"
+  },
+  {
+    "instruction": "Select rows where gender < 11",
+    "output": "df[df['gender'] < 11]"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Calculate the sum of weight",
+    "output": "df['weight'].sum()"
+  },
+  {
+    "instruction": "Select rows where weight != 84",
+    "output": "df[df['weight'] != 84]"
+  },
+  {
+    "instruction": "Calculate the sum of city",
+    "output": "df['city'].sum()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the median of income",
+    "output": "df['income'].median()"
+  },
+  {
+    "instruction": "Sort the DataFrame by weight descending",
+    "output": "df.sort_values('weight', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the median of weight",
+    "output": "df['weight'].median()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where weight == 74",
+    "output": "df[df['weight'] == 74]"
+  },
+  {
+    "instruction": "Calculate the maximum of height",
+    "output": "df['height'].max()"
+  },
+  {
+    "instruction": "Calculate the sum of city",
+    "output": "df['city'].sum()"
+  },
+  {
+    "instruction": "Sort the DataFrame by height descending",
+    "output": "df.sort_values('height', ascending=False)"
+  },
+  {
+    "instruction": "Select the column gender",
+    "output": "df['gender']"
+  },
+  {
+    "instruction": "Select rows where gender != 45",
+    "output": "df[df['gender'] != 45]"
+  },
+  {
+    "instruction": "Sort the DataFrame by gender ascending",
+    "output": "df.sort_values('gender')"
+  },
+  {
+    "instruction": "Calculate the standard deviation of income",
+    "output": "df['income'].std()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of city",
+    "output": "df['city'].std()"
+  },
+  {
+    "instruction": "Calculate the average of score",
+    "output": "df['score'].mean()"
+  },
+  {
+    "instruction": "Calculate the sum of weight",
+    "output": "df['weight'].sum()"
+  },
+  {
+    "instruction": "Select rows where score == 53",
+    "output": "df[df['score'] == 53]"
+  },
+  {
+    "instruction": "Calculate the average of score",
+    "output": "df['score'].mean()"
+  },
+  {
+    "instruction": "Select rows where score != 68",
+    "output": "df[df['score'] != 68]"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Group by city and count",
+    "output": "df.groupby('city').size()"
+  },
+  {
+    "instruction": "Select rows where weight > 71",
+    "output": "df[df['weight'] > 71]"
+  },
+  {
+    "instruction": "Sort the DataFrame by age ascending",
+    "output": "df.sort_values('age')"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Select the column age",
+    "output": "df['age']"
+  },
+  {
+    "instruction": "Select rows where income != 54",
+    "output": "df[df['income'] != 54]"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Select the column gender",
+    "output": "df['gender']"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of weight",
+    "output": "df['weight'].std()"
+  },
+  {
+    "instruction": "Calculate the maximum of gender",
+    "output": "df['gender'].max()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Group by city and count",
+    "output": "df.groupby('city').size()"
+  },
+  {
+    "instruction": "Select rows where height == 41",
+    "output": "df[df['height'] == 41]"
+  },
+  {
+    "instruction": "Calculate the median of height",
+    "output": "df['height'].median()"
+  },
+  {
+    "instruction": "Select rows where city != 53",
+    "output": "df[df['city'] != 53]"
+  },
+  {
+    "instruction": "Sort the DataFrame by age descending",
+    "output": "df.sort_values('age', ascending=False)"
+  },
+  {
+    "instruction": "Select rows where income == 69",
+    "output": "df[df['income'] == 69]"
+  },
+  {
+    "instruction": "Calculate the sum of weight",
+    "output": "df['weight'].sum()"
+  },
+  {
+    "instruction": "Sort the DataFrame by height descending",
+    "output": "df.sort_values('height', ascending=False)"
+  },
+  {
+    "instruction": "Select the column city",
+    "output": "df['city']"
+  },
+  {
+    "instruction": "Select the first 10 rows of column height",
+    "output": "df['height'].head(10)"
+  },
+  {
+    "instruction": "Select rows where score > 88",
+    "output": "df[df['score'] > 88]"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Group by score and calculate the average of height",
+    "output": "df.groupby('score')['height'].mean()"
+  },
+  {
+    "instruction": "Calculate the sum of income",
+    "output": "df['income'].sum()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select rows where age < 74",
+    "output": "df[df['age'] < 74]"
+  },
+  {
+    "instruction": "Select rows where city == 85",
+    "output": "df[df['city'] == 85]"
+  },
+  {
+    "instruction": "Group by city and count",
+    "output": "df.groupby('city').size()"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Calculate the standard deviation of city",
+    "output": "df['city'].std()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column score",
+    "output": "df['score'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Select rows where height > 42",
+    "output": "df[df['height'] > 42]"
+  },
+  {
+    "instruction": "Sort the DataFrame by income ascending",
+    "output": "df.sort_values('income')"
+  },
+  {
+    "instruction": "Sort the DataFrame by income ascending",
+    "output": "df.sort_values('income')"
+  },
+  {
+    "instruction": "Select rows where gender < 19",
+    "output": "df[df['gender'] < 19]"
+  },
+  {
+    "instruction": "Group by score and count",
+    "output": "df.groupby('score').size()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of weight",
+    "output": "df['weight'].std()"
+  },
+  {
+    "instruction": "Sort the DataFrame by gender descending",
+    "output": "df.sort_values('gender', ascending=False)"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Calculate the median of income",
+    "output": "df['income'].median()"
+  },
+  {
+    "instruction": "Select rows where score == 49",
+    "output": "df[df['score'] == 49]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of weight",
+    "output": "df['weight'].std()"
+  },
+  {
+    "instruction": "Sort the DataFrame by weight ascending",
+    "output": "df.sort_values('weight')"
+  },
+  {
+    "instruction": "Select rows where income != 91",
+    "output": "df[df['income'] != 91]"
+  },
+  {
+    "instruction": "Sort the DataFrame by score descending",
+    "output": "df.sort_values('score', ascending=False)"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where age < 48",
+    "output": "df[df['age'] < 48]"
+  },
+  {
+    "instruction": "Select rows where height == 65",
+    "output": "df[df['height'] == 65]"
+  },
+  {
+    "instruction": "Calculate the average of score",
+    "output": "df['score'].mean()"
+  },
+  {
+    "instruction": "Calculate the sum of income",
+    "output": "df['income'].sum()"
+  },
+  {
+    "instruction": "Select rows where gender == 48",
+    "output": "df[df['gender'] == 48]"
+  },
+  {
+    "instruction": "Select the last 5 rows of column height",
+    "output": "df['height'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the median of income",
+    "output": "df['income'].median()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Group by score and calculate the average of age",
+    "output": "df.groupby('score')['age'].mean()"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Sort the DataFrame by income descending",
+    "output": "df.sort_values('income', ascending=False)"
+  },
+  {
+    "instruction": "Select rows where income > 61",
+    "output": "df[df['income'] > 61]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Group by score and count",
+    "output": "df.groupby('score').size()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Sort the DataFrame by income ascending",
+    "output": "df.sort_values('income')"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the average of income",
+    "output": "df['income'].mean()"
+  },
+  {
+    "instruction": "Select the column gender",
+    "output": "df['gender']"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the minimum of income",
+    "output": "df['income'].min()"
+  },
+  {
+    "instruction": "Sort the DataFrame by height ascending",
+    "output": "df.sort_values('height')"
+  },
+  {
+    "instruction": "Calculate the sum of weight",
+    "output": "df['weight'].sum()"
+  },
+  {
+    "instruction": "Select rows where city > 49",
+    "output": "df[df['city'] > 49]"
+  },
+  {
+    "instruction": "Calculate the minimum of age",
+    "output": "df['age'].min()"
+  },
+  {
+    "instruction": "Select rows where gender == 27",
+    "output": "df[df['gender'] == 27]"
+  },
+  {
+    "instruction": "Group by city and count",
+    "output": "df.groupby('city').size()"
+  },
+  {
+    "instruction": "Calculate the sum of weight",
+    "output": "df['weight'].sum()"
+  },
+  {
+    "instruction": "Select rows where income < 68",
+    "output": "df[df['income'] < 68]"
+  },
+  {
+    "instruction": "Select rows where income != 55",
+    "output": "df[df['income'] != 55]"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Calculate the minimum of income",
+    "output": "df['income'].min()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column city",
+    "output": "df['city'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the maximum of age",
+    "output": "df['age'].max()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column city",
+    "output": "df['city'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where income < 82",
+    "output": "df[df['income'] < 82]"
+  },
+  {
+    "instruction": "Calculate the median of age",
+    "output": "df['age'].median()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column age",
+    "output": "df['age'].tail(5)"
+  },
+  {
+    "instruction": "Group by age and calculate the average of height",
+    "output": "df.groupby('age')['height'].mean()"
+  },
+  {
+    "instruction": "Calculate the minimum of income",
+    "output": "df['income'].min()"
+  },
+  {
+    "instruction": "Calculate the median of height",
+    "output": "df['height'].median()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Calculate the median of weight",
+    "output": "df['weight'].median()"
+  },
+  {
+    "instruction": "Sort the DataFrame by age ascending",
+    "output": "df.sort_values('age')"
+  },
+  {
+    "instruction": "Select the first 10 rows of column weight",
+    "output": "df['weight'].head(10)"
+  },
+  {
+    "instruction": "Group by city and calculate the average of height",
+    "output": "df.groupby('city')['height'].mean()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column city",
+    "output": "df['city'].tail(5)"
+  },
+  {
+    "instruction": "Select the column height",
+    "output": "df['height']"
+  },
+  {
+    "instruction": "Group by income and calculate the average of score",
+    "output": "df.groupby('income')['score'].mean()"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Sort the DataFrame by income ascending",
+    "output": "df.sort_values('income')"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Select rows where city < 54",
+    "output": "df[df['city'] < 54]"
+  },
+  {
+    "instruction": "Calculate the maximum of city",
+    "output": "df['city'].max()"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of weight",
+    "output": "df['weight'].std()"
+  },
+  {
+    "instruction": "Calculate the average of weight",
+    "output": "df['weight'].mean()"
+  },
+  {
+    "instruction": "Select rows where gender == 69",
+    "output": "df[df['gender'] == 69]"
+  },
+  {
+    "instruction": "Select the column height",
+    "output": "df['height']"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the column income",
+    "output": "df['income']"
+  },
+  {
+    "instruction": "Select rows where height > 43",
+    "output": "df[df['height'] > 43]"
+  },
+  {
+    "instruction": "Select rows where score != 51",
+    "output": "df[df['score'] != 51]"
+  },
+  {
+    "instruction": "Select rows where gender < 43",
+    "output": "df[df['gender'] < 43]"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of age",
+    "output": "df.groupby('gender')['age'].mean()"
+  },
+  {
+    "instruction": "Select the column height",
+    "output": "df['height']"
+  },
+  {
+    "instruction": "Select rows where height != 21",
+    "output": "df[df['height'] != 21]"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Sort the DataFrame by gender ascending",
+    "output": "df.sort_values('gender')"
+  },
+  {
+    "instruction": "Select the first 10 rows of column score",
+    "output": "df['score'].head(10)"
+  },
+  {
+    "instruction": "Calculate the maximum of age",
+    "output": "df['age'].max()"
+  },
+  {
+    "instruction": "Group by city and count",
+    "output": "df.groupby('city').size()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Group by weight and calculate the average of weight",
+    "output": "df.groupby('weight')['weight'].mean()"
+  },
+  {
+    "instruction": "Select rows where city < 26",
+    "output": "df[df['city'] < 26]"
+  },
+  {
+    "instruction": "Calculate the maximum of height",
+    "output": "df['height'].max()"
+  },
+  {
+    "instruction": "Group by income and calculate the average of income",
+    "output": "df.groupby('income')['income'].mean()"
+  },
+  {
+    "instruction": "Calculate the average of weight",
+    "output": "df['weight'].mean()"
+  },
+  {
+    "instruction": "Select rows where weight == 53",
+    "output": "df[df['weight'] == 53]"
+  },
+  {
+    "instruction": "Select rows where city == 28",
+    "output": "df[df['city'] == 28]"
+  },
+  {
+    "instruction": "Select the column income",
+    "output": "df['income']"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Sort the DataFrame by city descending",
+    "output": "df.sort_values('city', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the standard deviation of height",
+    "output": "df['height'].std()"
+  },
+  {
+    "instruction": "Select rows where gender > 17",
+    "output": "df[df['gender'] > 17]"
+  },
+  {
+    "instruction": "Sort the DataFrame by weight ascending",
+    "output": "df.sort_values('weight')"
+  },
+  {
+    "instruction": "Calculate the maximum of gender",
+    "output": "df['gender'].max()"
+  },
+  {
+    "instruction": "Calculate the minimum of income",
+    "output": "df['income'].min()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of city",
+    "output": "df['city'].std()"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Select rows where score == 60",
+    "output": "df[df['score'] == 60]"
+  },
+  {
+    "instruction": "Select rows where gender == 35",
+    "output": "df[df['gender'] == 35]"
+  },
+  {
+    "instruction": "Select rows where score != 97",
+    "output": "df[df['score'] != 97]"
+  },
+  {
+    "instruction": "Calculate the sum of city",
+    "output": "df['city'].sum()"
+  },
+  {
+    "instruction": "Select rows where gender > 83",
+    "output": "df[df['gender'] > 83]"
+  },
+  {
+    "instruction": "Sort the DataFrame by height descending",
+    "output": "df.sort_values('height', ascending=False)"
+  },
+  {
+    "instruction": "Select rows where height != 85",
+    "output": "df[df['height'] != 85]"
+  },
+  {
+    "instruction": "Select the last 5 rows of column age",
+    "output": "df['age'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where score < 12",
+    "output": "df[df['score'] < 12]"
+  },
+  {
+    "instruction": "Group by height and calculate the average of score",
+    "output": "df.groupby('height')['score'].mean()"
+  },
+  {
+    "instruction": "Calculate the minimum of weight",
+    "output": "df['weight'].min()"
+  },
+  {
+    "instruction": "Calculate the minimum of age",
+    "output": "df['age'].min()"
+  },
+  {
+    "instruction": "Group by city and count",
+    "output": "df.groupby('city').size()"
+  },
+  {
+    "instruction": "Select rows where city != 65",
+    "output": "df[df['city'] != 65]"
+  },
+  {
+    "instruction": "Calculate the median of income",
+    "output": "df['income'].median()"
+  },
+  {
+    "instruction": "Select rows where income == 27",
+    "output": "df[df['income'] == 27]"
+  },
+  {
+    "instruction": "Group by weight and calculate the average of income",
+    "output": "df.groupby('weight')['income'].mean()"
+  },
+  {
+    "instruction": "Sort the DataFrame by income descending",
+    "output": "df.sort_values('income', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the median of gender",
+    "output": "df['gender'].median()"
+  },
+  {
+    "instruction": "Group by income and calculate the average of weight",
+    "output": "df.groupby('income')['weight'].mean()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column weight",
+    "output": "df['weight'].tail(5)"
+  },
+  {
+    "instruction": "Group by age and calculate the average of weight",
+    "output": "df.groupby('age')['weight'].mean()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of score",
+    "output": "df['score'].std()"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the average of income",
+    "output": "df['income'].mean()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select rows where score != 27",
+    "output": "df[df['score'] != 27]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column score",
+    "output": "df['score'].head(10)"
+  },
+  {
+    "instruction": "Calculate the average of city",
+    "output": "df['city'].mean()"
+  },
+  {
+    "instruction": "Select rows where income < 100",
+    "output": "df[df['income'] < 100]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of score",
+    "output": "df['score'].std()"
+  },
+  {
+    "instruction": "Calculate the median of height",
+    "output": "df['height'].median()"
+  },
+  {
+    "instruction": "Select rows where gender == 26",
+    "output": "df[df['gender'] == 26]"
+  },
+  {
+    "instruction": "Calculate the minimum of weight",
+    "output": "df['weight'].min()"
+  },
+  {
+    "instruction": "Select rows where weight > 23",
+    "output": "df[df['weight'] > 23]"
+  },
+  {
+    "instruction": "Sort the DataFrame by city descending",
+    "output": "df.sort_values('city', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the maximum of weight",
+    "output": "df['weight'].max()"
+  },
+  {
+    "instruction": "Group by age and count",
+    "output": "df.groupby('age').size()"
+  },
+  {
+    "instruction": "Calculate the sum of score",
+    "output": "df['score'].sum()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column city",
+    "output": "df['city'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where age == 65",
+    "output": "df[df['age'] == 65]"
+  },
+  {
+    "instruction": "Calculate the maximum of age",
+    "output": "df['age'].max()"
+  },
+  {
+    "instruction": "Calculate the maximum of score",
+    "output": "df['score'].max()"
+  },
+  {
+    "instruction": "Select rows where height < 83",
+    "output": "df[df['height'] < 83]"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Sort the DataFrame by income descending",
+    "output": "df.sort_values('income', ascending=False)"
+  },
+  {
+    "instruction": "Sort the DataFrame by gender ascending",
+    "output": "df.sort_values('gender')"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the maximum of score",
+    "output": "df['score'].max()"
+  },
+  {
+    "instruction": "Group by age and count",
+    "output": "df.groupby('age').size()"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of score",
+    "output": "df.groupby('gender')['score'].mean()"
+  },
+  {
+    "instruction": "Select rows where city < 13",
+    "output": "df[df['city'] < 13]"
+  },
+  {
+    "instruction": "Select rows where score != 15",
+    "output": "df[df['score'] != 15]"
+  },
+  {
+    "instruction": "Group by gender and count",
+    "output": "df.groupby('gender').size()"
+  },
+  {
+    "instruction": "Calculate the maximum of age",
+    "output": "df['age'].max()"
+  },
+  {
+    "instruction": "Calculate the average of score",
+    "output": "df['score'].mean()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column height",
+    "output": "df['height'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where gender == 87",
+    "output": "df[df['gender'] == 87]"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where gender > 24",
+    "output": "df[df['gender'] > 24]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Select the first 10 rows of column age",
+    "output": "df['age'].head(10)"
+  },
+  {
+    "instruction": "Group by age and count",
+    "output": "df.groupby('age').size()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the sum of gender",
+    "output": "df['gender'].sum()"
+  },
+  {
+    "instruction": "Group by score and count",
+    "output": "df.groupby('score').size()"
+  },
+  {
+    "instruction": "Calculate the maximum of weight",
+    "output": "df['weight'].max()"
+  },
+  {
+    "instruction": "Calculate the average of gender",
+    "output": "df['gender'].mean()"
+  },
+  {
+    "instruction": "Select rows where score == 53",
+    "output": "df[df['score'] == 53]"
+  },
+  {
+    "instruction": "Select rows where age < 77",
+    "output": "df[df['age'] < 77]"
+  },
+  {
+    "instruction": "Calculate the average of age",
+    "output": "df['age'].mean()"
+  },
+  {
+    "instruction": "Sort the DataFrame by weight descending",
+    "output": "df.sort_values('weight', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the minimum of income",
+    "output": "df['income'].min()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where weight != 13",
+    "output": "df[df['weight'] != 13]"
+  },
+  {
+    "instruction": "Select rows where age > 89",
+    "output": "df[df['age'] > 89]"
+  },
+  {
+    "instruction": "Select the last 5 rows of column score",
+    "output": "df['score'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where height == 100",
+    "output": "df[df['height'] == 100]"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Sort the DataFrame by gender ascending",
+    "output": "df.sort_values('gender')"
+  },
+  {
+    "instruction": "Group by score and count",
+    "output": "df.groupby('score').size()"
+  },
+  {
+    "instruction": "Calculate the maximum of score",
+    "output": "df['score'].max()"
+  },
+  {
+    "instruction": "Calculate the sum of height",
+    "output": "df['height'].sum()"
+  },
+  {
+    "instruction": "Calculate the sum of city",
+    "output": "df['city'].sum()"
+  },
+  {
+    "instruction": "Select rows where score > 94",
+    "output": "df[df['score'] > 94]"
+  },
+  {
+    "instruction": "Group by score and count",
+    "output": "df.groupby('score').size()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column city",
+    "output": "df['city'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the sum of gender",
+    "output": "df['gender'].sum()"
+  },
+  {
+    "instruction": "Group by age and count",
+    "output": "df.groupby('age').size()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Select rows where income > 55",
+    "output": "df[df['income'] > 55]"
+  },
+  {
+    "instruction": "Select rows where height != 84",
+    "output": "df[df['height'] != 84]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of age",
+    "output": "df['age'].std()"
+  },
+  {
+    "instruction": "Select rows where income < 30",
+    "output": "df[df['income'] < 30]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column gender",
+    "output": "df['gender'].head(10)"
+  },
+  {
+    "instruction": "Calculate the standard deviation of age",
+    "output": "df['age'].std()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Sort the DataFrame by age ascending",
+    "output": "df.sort_values('age')"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Select rows where age != 23",
+    "output": "df[df['age'] != 23]"
+  },
+  {
+    "instruction": "Select rows where age != 58",
+    "output": "df[df['age'] != 58]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column weight",
+    "output": "df['weight'].head(10)"
+  },
+  {
+    "instruction": "Sort the DataFrame by height ascending",
+    "output": "df.sort_values('height')"
+  },
+  {
+    "instruction": "Sort the DataFrame by age ascending",
+    "output": "df.sort_values('age')"
+  },
+  {
+    "instruction": "Group by income and count",
+    "output": "df.groupby('income').size()"
+  },
+  {
+    "instruction": "Select rows where gender != 66",
+    "output": "df[df['gender'] != 66]"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Sort the DataFrame by weight ascending",
+    "output": "df.sort_values('weight')"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Select rows where age != 100",
+    "output": "df[df['age'] != 100]"
+  },
+  {
+    "instruction": "Select rows where city == 34",
+    "output": "df[df['city'] == 34]"
+  },
+  {
+    "instruction": "Sort the DataFrame by age descending",
+    "output": "df.sort_values('age', ascending=False)"
+  },
+  {
+    "instruction": "Sort the DataFrame by income descending",
+    "output": "df.sort_values('income', ascending=False)"
+  },
+  {
+    "instruction": "Select the last 5 rows of column height",
+    "output": "df['height'].tail(5)"
+  },
+  {
+    "instruction": "Select the last 5 rows of column age",
+    "output": "df['age'].tail(5)"
+  },
+  {
+    "instruction": "Sort the DataFrame by city descending",
+    "output": "df.sort_values('city', ascending=False)"
+  },
+  {
+    "instruction": "Sort the DataFrame by city descending",
+    "output": "df.sort_values('city', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of gender",
+    "output": "df['gender'].std()"
+  },
+  {
+    "instruction": "Calculate the sum of gender",
+    "output": "df['gender'].sum()"
+  },
+  {
+    "instruction": "Sort the DataFrame by city descending",
+    "output": "df.sort_values('city', ascending=False)"
+  },
+  {
+    "instruction": "Select rows where income == 67",
+    "output": "df[df['income'] == 67]"
+  },
+  {
+    "instruction": "Select rows where income == 24",
+    "output": "df[df['income'] == 24]"
+  },
+  {
+    "instruction": "Calculate the median of height",
+    "output": "df['height'].median()"
+  },
+  {
+    "instruction": "Select rows where income == 80",
+    "output": "df[df['income'] == 80]"
+  },
+  {
+    "instruction": "Calculate the median of city",
+    "output": "df['city'].median()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of gender",
+    "output": "df['gender'].std()"
+  },
+  {
+    "instruction": "Select rows where gender != 75",
+    "output": "df[df['gender'] != 75]"
+  },
+  {
+    "instruction": "Sort the DataFrame by income ascending",
+    "output": "df.sort_values('income')"
+  },
+  {
+    "instruction": "Calculate the minimum of height",
+    "output": "df['height'].min()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of income",
+    "output": "df['income'].std()"
+  },
+  {
+    "instruction": "Group by age and calculate the average of height",
+    "output": "df.groupby('age')['height'].mean()"
+  },
+  {
+    "instruction": "Select rows where gender < 63",
+    "output": "df[df['gender'] < 63]"
+  },
+  {
+    "instruction": "Calculate the average of weight",
+    "output": "df['weight'].mean()"
+  },
+  {
+    "instruction": "Select rows where city != 70",
+    "output": "df[df['city'] != 70]"
+  },
+  {
+    "instruction": "Group by income and calculate the average of weight",
+    "output": "df.groupby('income')['weight'].mean()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Calculate the average of gender",
+    "output": "df['gender'].mean()"
+  },
+  {
+    "instruction": "Group by height and count",
+    "output": "df.groupby('height').size()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the maximum of income",
+    "output": "df['income'].max()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of score",
+    "output": "df['score'].std()"
+  },
+  {
+    "instruction": "Calculate the average of height",
+    "output": "df['height'].mean()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where age < 50",
+    "output": "df[df['age'] < 50]"
+  },
+  {
+    "instruction": "Sort the DataFrame by age descending",
+    "output": "df.sort_values('age', ascending=False)"
+  },
+  {
+    "instruction": "Sort the DataFrame by age descending",
+    "output": "df.sort_values('age', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the minimum of height",
+    "output": "df['height'].min()"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of score",
+    "output": "df.groupby('gender')['score'].mean()"
+  },
+  {
+    "instruction": "Select rows where weight == 53",
+    "output": "df[df['weight'] == 53]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column score",
+    "output": "df['score'].head(10)"
+  },
+  {
+    "instruction": "Select rows where income != 81",
+    "output": "df[df['income'] != 81]"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Group by age and calculate the average of age",
+    "output": "df.groupby('age')['age'].mean()"
+  },
+  {
+    "instruction": "Sort the DataFrame by city ascending",
+    "output": "df.sort_values('city')"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Group by score and count",
+    "output": "df.groupby('score').size()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of score",
+    "output": "df.groupby('gender')['score'].mean()"
+  },
+  {
+    "instruction": "Group by income and count",
+    "output": "df.groupby('income').size()"
+  },
+  {
+    "instruction": "Select rows where height > 43",
+    "output": "df[df['height'] > 43]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Group by income and count",
+    "output": "df.groupby('income').size()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Group by age and count",
+    "output": "df.groupby('age').size()"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of weight",
+    "output": "df.groupby('gender')['weight'].mean()"
+  },
+  {
+    "instruction": "Select the column gender",
+    "output": "df['gender']"
+  },
+  {
+    "instruction": "Group by city and calculate the average of score",
+    "output": "df.groupby('city')['score'].mean()"
+  },
+  {
+    "instruction": "Calculate the minimum of age",
+    "output": "df['age'].min()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Sort the DataFrame by score descending",
+    "output": "df.sort_values('score', ascending=False)"
+  },
+  {
+    "instruction": "Select rows where age < 24",
+    "output": "df[df['age'] < 24]"
+  },
+  {
+    "instruction": "Sort the DataFrame by age descending",
+    "output": "df.sort_values('age', ascending=False)"
+  },
+  {
+    "instruction": "Select rows where city == 24",
+    "output": "df[df['city'] == 24]"
+  },
+  {
+    "instruction": "Sort the DataFrame by height descending",
+    "output": "df.sort_values('height', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the sum of height",
+    "output": "df['height'].sum()"
+  },
+  {
+    "instruction": "Calculate the sum of city",
+    "output": "df['city'].sum()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of weight",
+    "output": "df['weight'].std()"
+  },
+  {
+    "instruction": "Sort the DataFrame by age descending",
+    "output": "df.sort_values('age', ascending=False)"
+  },
+  {
+    "instruction": "Group by height and count",
+    "output": "df.groupby('height').size()"
+  },
+  {
+    "instruction": "Select rows where score == 35",
+    "output": "df[df['score'] == 35]"
+  },
+  {
+    "instruction": "Calculate the maximum of weight",
+    "output": "df['weight'].max()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score descending",
+    "output": "df.sort_values('score', ascending=False)"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the minimum of height",
+    "output": "df['height'].min()"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column score",
+    "output": "df['score'].head(10)"
+  },
+  {
+    "instruction": "Calculate the minimum of weight",
+    "output": "df['weight'].min()"
+  },
+  {
+    "instruction": "Calculate the maximum of city",
+    "output": "df['city'].max()"
+  },
+  {
+    "instruction": "Select rows where weight < 17",
+    "output": "df[df['weight'] < 17]"
+  },
+  {
+    "instruction": "Calculate the average of age",
+    "output": "df['age'].mean()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of height",
+    "output": "df['height'].std()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where age != 32",
+    "output": "df[df['age'] != 32]"
+  },
+  {
+    "instruction": "Sort the DataFrame by city descending",
+    "output": "df.sort_values('city', ascending=False)"
+  },
+  {
+    "instruction": "Select rows where income != 81",
+    "output": "df[df['income'] != 81]"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Group by height and calculate the average of income",
+    "output": "df.groupby('height')['income'].mean()"
+  },
+  {
+    "instruction": "Calculate the minimum of income",
+    "output": "df['income'].min()"
+  },
+  {
+    "instruction": "Select rows where score > 64",
+    "output": "df[df['score'] > 64]"
+  },
+  {
+    "instruction": "Calculate the maximum of city",
+    "output": "df['city'].max()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the sum of gender",
+    "output": "df['gender'].sum()"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of age",
+    "output": "df.groupby('gender')['age'].mean()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Calculate the median of city",
+    "output": "df['city'].median()"
+  },
+  {
+    "instruction": "Calculate the average of city",
+    "output": "df['city'].mean()"
+  },
+  {
+    "instruction": "Calculate the median of weight",
+    "output": "df['weight'].median()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the median of height",
+    "output": "df['height'].median()"
+  },
+  {
+    "instruction": "Select rows where income > 16",
+    "output": "df[df['income'] > 16]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of city",
+    "output": "df['city'].std()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where score == 23",
+    "output": "df[df['score'] == 23]"
+  },
+  {
+    "instruction": "Select the last 5 rows of column income",
+    "output": "df['income'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where score == 12",
+    "output": "df[df['score'] == 12]"
+  },
+  {
+    "instruction": "Calculate the sum of city",
+    "output": "df['city'].sum()"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Select rows where score > 33",
+    "output": "df[df['score'] > 33]"
+  },
+  {
+    "instruction": "Select rows where score == 35",
+    "output": "df[df['score'] == 35]"
+  },
+  {
+    "instruction": "Select rows where score == 50",
+    "output": "df[df['score'] == 50]"
+  },
+  {
+    "instruction": "Select rows where height != 73",
+    "output": "df[df['height'] != 73]"
+  },
+  {
+    "instruction": "Select rows where income < 48",
+    "output": "df[df['income'] < 48]"
+  },
+  {
+    "instruction": "Calculate the sum of city",
+    "output": "df['city'].sum()"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Calculate the minimum of weight",
+    "output": "df['weight'].min()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select rows where score > 74",
+    "output": "df[df['score'] > 74]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column gender",
+    "output": "df['gender'].head(10)"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Group by gender and count",
+    "output": "df.groupby('gender').size()"
+  },
+  {
+    "instruction": "Calculate the sum of weight",
+    "output": "df['weight'].sum()"
+  },
+  {
+    "instruction": "Select rows where weight != 66",
+    "output": "df[df['weight'] != 66]"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of income",
+    "output": "df['income'].std()"
+  },
+  {
+    "instruction": "Calculate the median of height",
+    "output": "df['height'].median()"
+  },
+  {
+    "instruction": "Calculate the maximum of height",
+    "output": "df['height'].max()"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Select rows where income > 92",
+    "output": "df[df['income'] > 92]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of income",
+    "output": "df['income'].std()"
+  },
+  {
+    "instruction": "Calculate the sum of gender",
+    "output": "df['gender'].sum()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score descending",
+    "output": "df.sort_values('score', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Select the column income",
+    "output": "df['income']"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Sort the DataFrame by height ascending",
+    "output": "df.sort_values('height')"
+  },
+  {
+    "instruction": "Select the column income",
+    "output": "df['income']"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the sum of score",
+    "output": "df['score'].sum()"
+  },
+  {
+    "instruction": "Select rows where score > 19",
+    "output": "df[df['score'] > 19]"
+  },
+  {
+    "instruction": "Sort the DataFrame by age ascending",
+    "output": "df.sort_values('age')"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select rows where height < 87",
+    "output": "df[df['height'] < 87]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column height",
+    "output": "df['height'].head(10)"
+  },
+  {
+    "instruction": "Select the column height",
+    "output": "df['height']"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column age",
+    "output": "df['age'].head(10)"
+  },
+  {
+    "instruction": "Group by income and count",
+    "output": "df.groupby('income').size()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of age",
+    "output": "df['age'].std()"
+  },
+  {
+    "instruction": "Calculate the median of gender",
+    "output": "df['gender'].median()"
+  },
+  {
+    "instruction": "Select rows where height == 71",
+    "output": "df[df['height'] == 71]"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Sort the DataFrame by income descending",
+    "output": "df.sort_values('income', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the average of income",
+    "output": "df['income'].mean()"
+  },
+  {
+    "instruction": "Select rows where city < 87",
+    "output": "df[df['city'] < 87]"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Select rows where income < 76",
+    "output": "df[df['income'] < 76]"
+  },
+  {
+    "instruction": "Sort the DataFrame by city descending",
+    "output": "df.sort_values('city', ascending=False)"
+  },
+  {
+    "instruction": "Sort the DataFrame by gender descending",
+    "output": "df.sort_values('gender', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of height",
+    "output": "df['height'].std()"
+  },
+  {
+    "instruction": "Calculate the maximum of height",
+    "output": "df['height'].max()"
+  },
+  {
+    "instruction": "Group by weight and calculate the average of height",
+    "output": "df.groupby('weight')['height'].mean()"
+  },
+  {
+    "instruction": "Select rows where height != 59",
+    "output": "df[df['height'] != 59]"
+  },
+  {
+    "instruction": "Calculate the sum of gender",
+    "output": "df['gender'].sum()"
+  },
+  {
+    "instruction": "Select rows where score != 57",
+    "output": "df[df['score'] != 57]"
+  },
+  {
+    "instruction": "Select the column city",
+    "output": "df['city']"
+  },
+  {
+    "instruction": "Group by gender and count",
+    "output": "df.groupby('gender').size()"
+  },
+  {
+    "instruction": "Select rows where weight > 14",
+    "output": "df[df['weight'] > 14]"
+  },
+  {
+    "instruction": "Calculate the average of gender",
+    "output": "df['gender'].mean()"
+  },
+  {
+    "instruction": "Select rows where score < 98",
+    "output": "df[df['score'] < 98]"
+  },
+  {
+    "instruction": "Group by weight and count",
+    "output": "df.groupby('weight').size()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of score",
+    "output": "df['score'].std()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column age",
+    "output": "df['age'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the maximum of height",
+    "output": "df['height'].max()"
+  },
+  {
+    "instruction": "Select rows where gender < 53",
+    "output": "df[df['gender'] < 53]"
+  },
+  {
+    "instruction": "Select the column gender",
+    "output": "df['gender']"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the maximum of income",
+    "output": "df['income'].max()"
+  },
+  {
+    "instruction": "Select rows where height == 34",
+    "output": "df[df['height'] == 34]"
+  },
+  {
+    "instruction": "Group by height and calculate the average of height",
+    "output": "df.groupby('height')['height'].mean()"
+  },
+  {
+    "instruction": "Calculate the maximum of weight",
+    "output": "df['weight'].max()"
+  },
+  {
+    "instruction": "Calculate the maximum of score",
+    "output": "df['score'].max()"
+  },
+  {
+    "instruction": "Calculate the sum of height",
+    "output": "df['height'].sum()"
+  },
+  {
+    "instruction": "Select rows where city == 39",
+    "output": "df[df['city'] == 39]"
+  },
+  {
+    "instruction": "Select rows where height < 10",
+    "output": "df[df['height'] < 10]"
+  },
+  {
+    "instruction": "Calculate the maximum of gender",
+    "output": "df['gender'].max()"
+  },
+  {
+    "instruction": "Calculate the median of gender",
+    "output": "df['gender'].median()"
+  },
+  {
+    "instruction": "Select rows where weight < 21",
+    "output": "df[df['weight'] < 21]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of score",
+    "output": "df['score'].std()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of city",
+    "output": "df['city'].std()"
+  },
+  {
+    "instruction": "Select rows where weight != 60",
+    "output": "df[df['weight'] != 60]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of weight",
+    "output": "df['weight'].std()"
+  },
+  {
+    "instruction": "Select rows where income > 60",
+    "output": "df[df['income'] > 60]"
+  },
+  {
+    "instruction": "Group by height and count",
+    "output": "df.groupby('height').size()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column age",
+    "output": "df['age'].head(10)"
+  },
+  {
+    "instruction": "Group by gender and count",
+    "output": "df.groupby('gender').size()"
+  },
+  {
+    "instruction": "Calculate the maximum of score",
+    "output": "df['score'].max()"
+  },
+  {
+    "instruction": "Select rows where gender != 61",
+    "output": "df[df['gender'] != 61]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column weight",
+    "output": "df['weight'].head(10)"
+  },
+  {
+    "instruction": "Calculate the average of income",
+    "output": "df['income'].mean()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column score",
+    "output": "df['score'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the median of income",
+    "output": "df['income'].median()"
+  },
+  {
+    "instruction": "Select the column height",
+    "output": "df['height']"
+  },
+  {
+    "instruction": "Calculate the standard deviation of age",
+    "output": "df['age'].std()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select rows where score == 41",
+    "output": "df[df['score'] == 41]"
+  },
+  {
+    "instruction": "Sort the DataFrame by income descending",
+    "output": "df.sort_values('income', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the minimum of age",
+    "output": "df['age'].min()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of gender",
+    "output": "df['gender'].std()"
+  },
+  {
+    "instruction": "Calculate the minimum of income",
+    "output": "df['income'].min()"
+  },
+  {
+    "instruction": "Calculate the maximum of age",
+    "output": "df['age'].max()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where height == 56",
+    "output": "df[df['height'] == 56]"
+  },
+  {
+    "instruction": "Select rows where weight == 15",
+    "output": "df[df['weight'] == 15]"
+  },
+  {
+    "instruction": "Select rows where score != 89",
+    "output": "df[df['score'] != 89]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of weight",
+    "output": "df['weight'].std()"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Calculate the average of weight",
+    "output": "df['weight'].mean()"
+  },
+  {
+    "instruction": "Select rows where weight < 31",
+    "output": "df[df['weight'] < 31]"
+  },
+  {
+    "instruction": "Sort the DataFrame by age descending",
+    "output": "df.sort_values('age', ascending=False)"
+  },
+  {
+    "instruction": "Select the column gender",
+    "output": "df['gender']"
+  },
+  {
+    "instruction": "Calculate the sum of score",
+    "output": "df['score'].sum()"
+  },
+  {
+    "instruction": "Group by age and calculate the average of weight",
+    "output": "df.groupby('age')['weight'].mean()"
+  },
+  {
+    "instruction": "Sort the DataFrame by weight descending",
+    "output": "df.sort_values('weight', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the sum of height",
+    "output": "df['height'].sum()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the maximum of weight",
+    "output": "df['weight'].max()"
+  },
+  {
+    "instruction": "Calculate the minimum of weight",
+    "output": "df['weight'].min()"
+  },
+  {
+    "instruction": "Select rows where height < 34",
+    "output": "df[df['height'] < 34]"
+  },
+  {
+    "instruction": "Sort the DataFrame by city ascending",
+    "output": "df.sort_values('city')"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the minimum of height",
+    "output": "df['height'].min()"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Calculate the average of score",
+    "output": "df['score'].mean()"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Group by city and calculate the average of weight",
+    "output": "df.groupby('city')['weight'].mean()"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Group by age and count",
+    "output": "df.groupby('age').size()"
+  },
+  {
+    "instruction": "Sort the DataFrame by age ascending",
+    "output": "df.sort_values('age')"
+  },
+  {
+    "instruction": "Select rows where age < 41",
+    "output": "df[df['age'] < 41]"
+  },
+  {
+    "instruction": "Calculate the maximum of weight",
+    "output": "df['weight'].max()"
+  },
+  {
+    "instruction": "Select rows where age < 76",
+    "output": "df[df['age'] < 76]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of height",
+    "output": "df['height'].std()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Group by age and calculate the average of weight",
+    "output": "df.groupby('age')['weight'].mean()"
+  },
+  {
+    "instruction": "Select rows where weight > 72",
+    "output": "df[df['weight'] > 72]"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Select the first 10 rows of column score",
+    "output": "df['score'].head(10)"
+  },
+  {
+    "instruction": "Calculate the standard deviation of age",
+    "output": "df['age'].std()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Sort the DataFrame by height ascending",
+    "output": "df.sort_values('height')"
+  },
+  {
+    "instruction": "Calculate the sum of gender",
+    "output": "df['gender'].sum()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Select rows where age > 34",
+    "output": "df[df['age'] > 34]"
+  },
+  {
+    "instruction": "Select rows where age < 72",
+    "output": "df[df['age'] < 72]"
+  },
+  {
+    "instruction": "Select rows where gender == 84",
+    "output": "df[df['gender'] == 84]"
+  },
+  {
+    "instruction": "Group by height and count",
+    "output": "df.groupby('height').size()"
+  },
+  {
+    "instruction": "Group by height and count",
+    "output": "df.groupby('height').size()"
+  },
+  {
+    "instruction": "Select rows where weight > 100",
+    "output": "df[df['weight'] > 100]"
+  },
+  {
+    "instruction": "Select rows where age == 87",
+    "output": "df[df['age'] == 87]"
+  },
+  {
+    "instruction": "Select rows where income < 69",
+    "output": "df[df['income'] < 69]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column gender",
+    "output": "df['gender'].head(10)"
+  },
+  {
+    "instruction": "Calculate the standard deviation of gender",
+    "output": "df['gender'].std()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the maximum of income",
+    "output": "df['income'].max()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of height",
+    "output": "df['height'].std()"
+  },
+  {
+    "instruction": "Select rows where weight > 74",
+    "output": "df[df['weight'] > 74]"
+  },
+  {
+    "instruction": "Select rows where weight < 65",
+    "output": "df[df['weight'] < 65]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column score",
+    "output": "df['score'].head(10)"
+  },
+  {
+    "instruction": "Select rows where city != 68",
+    "output": "df[df['city'] != 68]"
+  },
+  {
+    "instruction": "Select the column gender",
+    "output": "df['gender']"
+  },
+  {
+    "instruction": "Select the last 5 rows of column age",
+    "output": "df['age'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where gender != 85",
+    "output": "df[df['gender'] != 85]"
+  },
+  {
+    "instruction": "Select rows where income < 93",
+    "output": "df[df['income'] < 93]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column score",
+    "output": "df['score'].head(10)"
+  },
+  {
+    "instruction": "Calculate the median of weight",
+    "output": "df['weight'].median()"
+  },
+  {
+    "instruction": "Calculate the sum of weight",
+    "output": "df['weight'].sum()"
+  },
+  {
+    "instruction": "Calculate the maximum of gender",
+    "output": "df['gender'].max()"
+  },
+  {
+    "instruction": "Calculate the maximum of score",
+    "output": "df['score'].max()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the column height",
+    "output": "df['height']"
+  },
+  {
+    "instruction": "Sort the DataFrame by height ascending",
+    "output": "df.sort_values('height')"
+  },
+  {
+    "instruction": "Select rows where income == 54",
+    "output": "df[df['income'] == 54]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of income",
+    "output": "df['income'].std()"
+  },
+  {
+    "instruction": "Calculate the average of score",
+    "output": "df['score'].mean()"
+  },
+  {
+    "instruction": "Calculate the sum of score",
+    "output": "df['score'].sum()"
+  },
+  {
+    "instruction": "Calculate the average of age",
+    "output": "df['age'].mean()"
+  },
+  {
+    "instruction": "Calculate the average of gender",
+    "output": "df['gender'].mean()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Group by income and count",
+    "output": "df.groupby('income').size()"
+  },
+  {
+    "instruction": "Calculate the maximum of gender",
+    "output": "df['gender'].max()"
+  },
+  {
+    "instruction": "Select rows where income != 57",
+    "output": "df[df['income'] != 57]"
+  },
+  {
+    "instruction": "Calculate the sum of city",
+    "output": "df['city'].sum()"
+  },
+  {
+    "instruction": "Select rows where height < 41",
+    "output": "df[df['height'] < 41]"
+  },
+  {
+    "instruction": "Calculate the average of age",
+    "output": "df['age'].mean()"
+  },
+  {
+    "instruction": "Calculate the median of gender",
+    "output": "df['gender'].median()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of age",
+    "output": "df.groupby('gender')['age'].mean()"
+  },
+  {
+    "instruction": "Sort the DataFrame by age ascending",
+    "output": "df.sort_values('age')"
+  },
+  {
+    "instruction": "Calculate the maximum of score",
+    "output": "df['score'].max()"
+  },
+  {
+    "instruction": "Calculate the sum of income",
+    "output": "df['income'].sum()"
+  },
+  {
+    "instruction": "Calculate the minimum of height",
+    "output": "df['height'].min()"
+  },
+  {
+    "instruction": "Sort the DataFrame by height ascending",
+    "output": "df.sort_values('height')"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the average of income",
+    "output": "df['income'].mean()"
+  },
+  {
+    "instruction": "Calculate the median of age",
+    "output": "df['age'].median()"
+  },
+  {
+    "instruction": "Calculate the median of city",
+    "output": "df['city'].median()"
+  },
+  {
+    "instruction": "Group by weight and count",
+    "output": "df.groupby('weight').size()"
+  },
+  {
+    "instruction": "Group by score and count",
+    "output": "df.groupby('score').size()"
+  },
+  {
+    "instruction": "Sort the DataFrame by income ascending",
+    "output": "df.sort_values('income')"
+  },
+  {
+    "instruction": "Sort the DataFrame by age ascending",
+    "output": "df.sort_values('age')"
+  },
+  {
+    "instruction": "Select rows where income != 26",
+    "output": "df[df['income'] != 26]"
+  },
+  {
+    "instruction": "Select the column age",
+    "output": "df['age']"
+  },
+  {
+    "instruction": "Group by height and count",
+    "output": "df.groupby('height').size()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the minimum of height",
+    "output": "df['height'].min()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column score",
+    "output": "df['score'].tail(5)"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the minimum of height",
+    "output": "df['height'].min()"
+  },
+  {
+    "instruction": "Group by height and calculate the average of income",
+    "output": "df.groupby('height')['income'].mean()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of score",
+    "output": "df['score'].std()"
+  },
+  {
+    "instruction": "Select rows where gender != 65",
+    "output": "df[df['gender'] != 65]"
+  },
+  {
+    "instruction": "Select rows where age < 89",
+    "output": "df[df['age'] < 89]"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column income",
+    "output": "df['income'].head(10)"
+  },
+  {
+    "instruction": "Select the column income",
+    "output": "df['income']"
+  },
+  {
+    "instruction": "Select rows where weight < 13",
+    "output": "df[df['weight'] < 13]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column score",
+    "output": "df['score'].head(10)"
+  },
+  {
+    "instruction": "Group by score and count",
+    "output": "df.groupby('score').size()"
+  },
+  {
+    "instruction": "Calculate the median of age",
+    "output": "df['age'].median()"
+  },
+  {
+    "instruction": "Select rows where gender != 43",
+    "output": "df[df['gender'] != 43]"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the minimum of age",
+    "output": "df['age'].min()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Select rows where city > 86",
+    "output": "df[df['city'] > 86]"
+  },
+  {
+    "instruction": "Select rows where height != 78",
+    "output": "df[df['height'] != 78]"
+  },
+  {
+    "instruction": "Select the last 5 rows of column city",
+    "output": "df['city'].tail(5)"
+  },
+  {
+    "instruction": "Select the column age",
+    "output": "df['age']"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select rows where score < 100",
+    "output": "df[df['score'] < 100]"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Calculate the standard deviation of city",
+    "output": "df['city'].std()"
+  },
+  {
+    "instruction": "Group by gender and count",
+    "output": "df.groupby('gender').size()"
+  },
+  {
+    "instruction": "Select rows where age != 96",
+    "output": "df[df['age'] != 96]"
+  },
+  {
+    "instruction": "Calculate the maximum of income",
+    "output": "df['income'].max()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column income",
+    "output": "df['income'].tail(5)"
+  },
+  {
+    "instruction": "Select the column income",
+    "output": "df['income']"
+  },
+  {
+    "instruction": "Select rows where age != 34",
+    "output": "df[df['age'] != 34]"
+  },
+  {
+    "instruction": "Calculate the average of weight",
+    "output": "df['weight'].mean()"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where height < 63",
+    "output": "df[df['height'] < 63]"
+  },
+  {
+    "instruction": "Group by height and calculate the average of height",
+    "output": "df.groupby('height')['height'].mean()"
+  },
+  {
+    "instruction": "Group by age and calculate the average of income",
+    "output": "df.groupby('age')['income'].mean()"
+  },
+  {
+    "instruction": "Sort the DataFrame by height descending",
+    "output": "df.sort_values('height', ascending=False)"
+  },
+  {
+    "instruction": "Sort the DataFrame by age ascending",
+    "output": "df.sort_values('age')"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Calculate the sum of height",
+    "output": "df['height'].sum()"
+  },
+  {
+    "instruction": "Select rows where city > 49",
+    "output": "df[df['city'] > 49]"
+  },
+  {
+    "instruction": "Group by city and count",
+    "output": "df.groupby('city').size()"
+  },
+  {
+    "instruction": "Calculate the sum of gender",
+    "output": "df['gender'].sum()"
+  },
+  {
+    "instruction": "Calculate the average of score",
+    "output": "df['score'].mean()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where height < 96",
+    "output": "df[df['height'] < 96]"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column weight",
+    "output": "df['weight'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the minimum of income",
+    "output": "df['income'].min()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column income",
+    "output": "df['income'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Calculate the maximum of age",
+    "output": "df['age'].max()"
+  },
+  {
+    "instruction": "Calculate the maximum of age",
+    "output": "df['age'].max()"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Calculate the maximum of height",
+    "output": "df['height'].max()"
+  },
+  {
+    "instruction": "Sort the DataFrame by height ascending",
+    "output": "df.sort_values('height')"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Sort the DataFrame by height ascending",
+    "output": "df.sort_values('height')"
+  },
+  {
+    "instruction": "Select the last 5 rows of column age",
+    "output": "df['age'].tail(5)"
+  },
+  {
+    "instruction": "Select rows where score < 43",
+    "output": "df[df['score'] < 43]"
+  },
+  {
+    "instruction": "Calculate the median of gender",
+    "output": "df['gender'].median()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column age",
+    "output": "df['age'].head(10)"
+  },
+  {
+    "instruction": "Calculate the standard deviation of weight",
+    "output": "df['weight'].std()"
+  },
+  {
+    "instruction": "Group by city and calculate the average of height",
+    "output": "df.groupby('city')['height'].mean()"
+  },
+  {
+    "instruction": "Calculate the minimum of age",
+    "output": "df['age'].min()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the average of score",
+    "output": "df['score'].mean()"
+  },
+  {
+    "instruction": "Group by age and calculate the average of weight",
+    "output": "df.groupby('age')['weight'].mean()"
+  },
+  {
+    "instruction": "Group by income and calculate the average of score",
+    "output": "df.groupby('income')['score'].mean()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Group by city and count",
+    "output": "df.groupby('city').size()"
+  },
+  {
+    "instruction": "Select rows where height == 39",
+    "output": "df[df['height'] == 39]"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column score",
+    "output": "df['score'].tail(5)"
+  },
+  {
+    "instruction": "Select the column income",
+    "output": "df['income']"
+  },
+  {
+    "instruction": "Calculate the median of height",
+    "output": "df['height'].median()"
+  },
+  {
+    "instruction": "Calculate the median of score",
+    "output": "df['score'].median()"
+  },
+  {
+    "instruction": "Select rows where weight != 78",
+    "output": "df[df['weight'] != 78]"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Sort the DataFrame by gender descending",
+    "output": "df.sort_values('gender', ascending=False)"
+  },
+  {
+    "instruction": "Select the first 10 rows of column gender",
+    "output": "df['gender'].head(10)"
+  },
+  {
+    "instruction": "Calculate the median of income",
+    "output": "df['income'].median()"
+  },
+  {
+    "instruction": "Calculate the median of age",
+    "output": "df['age'].median()"
+  },
+  {
+    "instruction": "Calculate the minimum of height",
+    "output": "df['height'].min()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column city",
+    "output": "df['city'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Sort the DataFrame by weight ascending",
+    "output": "df.sort_values('weight')"
+  },
+  {
+    "instruction": "Select the first 10 rows of column gender",
+    "output": "df['gender'].head(10)"
+  },
+  {
+    "instruction": "Calculate the average of age",
+    "output": "df['age'].mean()"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of income",
+    "output": "df.groupby('gender')['income'].mean()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Select the column height",
+    "output": "df['height']"
+  },
+  {
+    "instruction": "Select rows where gender != 53",
+    "output": "df[df['gender'] != 53]"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the sum of height",
+    "output": "df['height'].sum()"
+  },
+  {
+    "instruction": "Group by city and count",
+    "output": "df.groupby('city').size()"
+  },
+  {
+    "instruction": "Select the column height",
+    "output": "df['height']"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Calculate the average of weight",
+    "output": "df['weight'].mean()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column age",
+    "output": "df['age'].head(10)"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Calculate the maximum of age",
+    "output": "df['age'].max()"
+  },
+  {
+    "instruction": "Group by score and calculate the average of income",
+    "output": "df.groupby('score')['income'].mean()"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Select rows where city == 70",
+    "output": "df[df['city'] == 70]"
+  },
+  {
+    "instruction": "Select the column height",
+    "output": "df['height']"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Sort the DataFrame by city descending",
+    "output": "df.sort_values('city', ascending=False)"
+  },
+  {
+    "instruction": "Calculate the sum of income",
+    "output": "df['income'].sum()"
+  },
+  {
+    "instruction": "Select rows where score > 20",
+    "output": "df[df['score'] > 20]"
+  },
+  {
+    "instruction": "Sort the DataFrame by weight descending",
+    "output": "df.sort_values('weight', ascending=False)"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Group by income and calculate the average of age",
+    "output": "df.groupby('income')['age'].mean()"
+  },
+  {
+    "instruction": "Calculate the average of city",
+    "output": "df['city'].mean()"
+  },
+  {
+    "instruction": "Calculate the maximum of weight",
+    "output": "df['weight'].max()"
+  },
+  {
+    "instruction": "Group by weight and count",
+    "output": "df.groupby('weight').size()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where score < 39",
+    "output": "df[df['score'] < 39]"
+  },
+  {
+    "instruction": "Select rows where score == 80",
+    "output": "df[df['score'] == 80]"
+  },
+  {
+    "instruction": "Calculate the sum of height",
+    "output": "df['height'].sum()"
+  },
+  {
+    "instruction": "Select rows where weight == 31",
+    "output": "df[df['weight'] == 31]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column gender",
+    "output": "df['gender'].head(10)"
+  },
+  {
+    "instruction": "Select the column weight",
+    "output": "df['weight']"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the minimum of score",
+    "output": "df['score'].min()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column score",
+    "output": "df['score'].head(10)"
+  },
+  {
+    "instruction": "Select the last 5 rows of column weight",
+    "output": "df['weight'].tail(5)"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Calculate the average of income",
+    "output": "df['income'].mean()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of gender",
+    "output": "df['gender'].std()"
+  },
+  {
+    "instruction": "Calculate the maximum of income",
+    "output": "df['income'].max()"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where city < 94",
+    "output": "df[df['city'] < 94]"
+  },
+  {
+    "instruction": "Select the last 5 rows of column height",
+    "output": "df['height'].tail(5)"
+  },
+  {
+    "instruction": "Drop missing values",
+    "output": "df.dropna()"
+  },
+  {
+    "instruction": "Group by income and count",
+    "output": "df.groupby('income').size()"
+  },
+  {
+    "instruction": "Select the first 10 rows of column city",
+    "output": "df['city'].head(10)"
+  },
+  {
+    "instruction": "Select rows where city == 25",
+    "output": "df[df['city'] == 25]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of weight",
+    "output": "df['weight'].std()"
+  },
+  {
+    "instruction": "Select rows where gender > 30",
+    "output": "df[df['gender'] > 30]"
+  },
+  {
+    "instruction": "Select rows where height > 26",
+    "output": "df[df['height'] > 26]"
+  },
+  {
+    "instruction": "Select the first 10 rows of column weight",
+    "output": "df['weight'].head(10)"
+  },
+  {
+    "instruction": "Select rows where score > 55",
+    "output": "df[df['score'] > 55]"
+  },
+  {
+    "instruction": "Calculate the standard deviation of height",
+    "output": "df['height'].std()"
+  },
+  {
+    "instruction": "Sort the DataFrame by age descending",
+    "output": "df.sort_values('age', ascending=False)"
+  },
+  {
+    "instruction": "Select rows where gender > 19",
+    "output": "df[df['gender'] > 19]"
+  },
+  {
+    "instruction": "Calculate the sum of gender",
+    "output": "df['gender'].sum()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column weight",
+    "output": "df['weight'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the standard deviation of income",
+    "output": "df['income'].std()"
+  },
+  {
+    "instruction": "Sort the DataFrame by gender ascending",
+    "output": "df.sort_values('gender')"
+  },
+  {
+    "instruction": "Select rows where income > 80",
+    "output": "df[df['income'] > 80]"
+  },
+  {
+    "instruction": "Select rows where gender < 22",
+    "output": "df[df['gender'] < 22]"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the minimum of gender",
+    "output": "df['gender'].min()"
+  },
+  {
+    "instruction": "Calculate the average of city",
+    "output": "df['city'].mean()"
+  },
+  {
+    "instruction": "Calculate the maximum of age",
+    "output": "df['age'].max()"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Group by age and count",
+    "output": "df.groupby('age').size()"
+  },
+  {
+    "instruction": "Calculate the average of height",
+    "output": "df['height'].mean()"
+  },
+  {
+    "instruction": "Calculate the sum of height",
+    "output": "df['height'].sum()"
+  },
+  {
+    "instruction": "Calculate the average of height",
+    "output": "df['height'].mean()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of height",
+    "output": "df['height'].std()"
+  },
+  {
+    "instruction": "Select the column height",
+    "output": "df['height']"
+  },
+  {
+    "instruction": "Select rows where gender != 90",
+    "output": "df[df['gender'] != 90]"
+  },
+  {
+    "instruction": "Select the last 5 rows of column gender",
+    "output": "df['gender'].tail(5)"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Sort the DataFrame by score ascending",
+    "output": "df.sort_values('score')"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Calculate the sum of weight",
+    "output": "df['weight'].sum()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column score",
+    "output": "df['score'].tail(5)"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select the column age",
+    "output": "df['age']"
+  },
+  {
+    "instruction": "Calculate the sum of age",
+    "output": "df['age'].sum()"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Group by age and calculate the average of age",
+    "output": "df.groupby('age')['age'].mean()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column income",
+    "output": "df['income'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the maximum of city",
+    "output": "df['city'].max()"
+  },
+  {
+    "instruction": "Select the last 5 rows of column city",
+    "output": "df['city'].tail(5)"
+  },
+  {
+    "instruction": "Calculate the standard deviation of score",
+    "output": "df['score'].std()"
+  },
+  {
+    "instruction": "Sort the DataFrame by income ascending",
+    "output": "df.sort_values('income')"
+  },
+  {
+    "instruction": "Select rows where height > 18",
+    "output": "df[df['height'] > 18]"
+  },
+  {
+    "instruction": "Select rows where height < 41",
+    "output": "df[df['height'] < 41]"
+  },
+  {
+    "instruction": "Select rows where city != 69",
+    "output": "df[df['city'] != 69]"
+  },
+  {
+    "instruction": "Group by weight and count",
+    "output": "df.groupby('weight').size()"
+  },
+  {
+    "instruction": "Select the column gender",
+    "output": "df['gender']"
+  },
+  {
+    "instruction": "Calculate the median of income",
+    "output": "df['income'].median()"
+  },
+  {
+    "instruction": "Group by gender and calculate the average of weight",
+    "output": "df.groupby('gender')['weight'].mean()"
+  },
+  {
+    "instruction": "Select rows where height == 38",
+    "output": "df[df['height'] == 38]"
+  },
+  {
+    "instruction": "Select rows where score > 73",
+    "output": "df[df['score'] > 73]"
+  },
+  {
+    "instruction": "Calculate the minimum of city",
+    "output": "df['city'].min()"
+  },
+  {
+    "instruction": "Select rows where city > 69",
+    "output": "df[df['city'] > 69]"
+  },
+  {
+    "instruction": "Select the last 5 rows of column score",
+    "output": "df['score'].tail(5)"
+  },
+  {
+    "instruction": "Select the column score",
+    "output": "df['score']"
+  },
+  {
+    "instruction": "Drop duplicate rows",
+    "output": "df.drop_duplicates()"
+  },
+  {
+    "instruction": "Select rows where income != 80",
+    "output": "df[df['income'] != 80]"
+  },
+  {
+    "instruction": "Calculate the maximum of weight",
+    "output": "df['weight'].max()"
+  },
+  {
+    "instruction": "Calculate the median of gender",
+    "output": "df['gender'].median()"
+  },
+  {
+    "instruction": "Calculate the standard deviation of city",
+    "output": "df['city'].std()"
+  },
+  {
+    "instruction": "Calculate the average of income",
+    "output": "df['income'].mean()"
+  },
+  {
+    "instruction": "Group by height and count",
+    "output": "df.groupby('height').size()"
+  }
+]
