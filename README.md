@@ -35,42 +35,43 @@ data-analysis-assistant/
 ---
 
 ## Installation
+
+### clone repo
 ```bash
 git clone https://github.com/rrui-liang/data-analysis-assistant.git
 cd data-analysis-assistant
-
-# create venv
+```
+### create venv
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
-# install dependencies
+```
+### install dependencies
+```bash
 pip install -r requirements.txt
 ```
 
 ---
 
 ## Usage
-1) Generate Training Data
+### Generate Training Data
 ```bash
 python src/generate_data.py
 ```
-2) Fine-tune the Model
+### Fine-tune the Model
 ```bash
 python src/finetune.py
 ```
-
-3) Run Inference (CLI)
+### Run Inference (CLI)
 ```bash
 python src/infer.py
 ```
-
 **Example:**
 ```text
 Ask: Drop duplicate rows  
 Model output: df.drop_duplicates()
 ```
-
-4) Launch Gradio App
+### Launch Gradio App
 ```bash
 python src/app.py
 ```
@@ -78,16 +79,14 @@ python src/app.py
 ---
 
 ## Example Queries
-
-“Calculate the sum of income”
-“Select rows where age > 30”
-“Group by gender and calculate average score”
-“Drop missing values”
+- “Calculate the sum of income”
+- “Select rows where age > 30”
+- “Group by gender and calculate average score”
+- “Drop missing values”
 
 ---
 
 ## Future Improvements
-
 - Add larger datasets to improve generalization.
 - Experiment with quantized models for faster inference.
 - Extend support to SQL code generation.
