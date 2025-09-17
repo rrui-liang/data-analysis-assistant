@@ -1,39 +1,46 @@
-import os
-import torch
+import os, torch
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, pipeline
 
-MODEL_PATH = "finetuned-model"
-if not os.path.exists(MODEL_PATH):
-    raise FileNotFoundError(f"Model not found at {MODEL_PATH}")
+# Path to the fine-tuned model directory
+MODEL_DIR = "finetuned-model"
+# Prefix used during training, must match so inference works properly
+PROMPT_PREFIX = "Translate the following instruction to pandas code:\n"
 
-# Use CUDA if available
-device = "cuda" if torch.cuda.is_available() else "cpu"
-print(f"Using device: {device}")
+# Set device (CPU here, but could also be "cuda" or "mps")
+device = "cpu"
+print("Using device:", device)
 
-# Load model and verify it's loaded correctly
-try:
-    model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_PATH)
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
-    model.to(device)
-    
-    # Convert device=-1 (CPU) or 0 (CUDA) based on available hardware
-    device_id = 0 if device == "cuda" else -1
-    
-    pipe = pipeline(
-        "text2text-generation", 
-        model=model, 
-        tokenizer=tokenizer, 
-        device=device_id,
-    )
-except Exception as e:
-    print(f"Error loading model: {e}")
-    raise
+# Load tokenizer and model from the fine-tuned directory
+tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR, local_files_only=True)
+model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_DIR, local_files_only=True)
+model.to(device).eval()   # Move model to device and set evaluation mode
 
-def ask(query):
-    output = pipe(query, max_new_tokens=64)[0]['generated_text']
-    return output
+# Create a text2text generation pipeline for inference
+gen = pipeline(
+    "text2text-generation",
+    model=model,
+    tokenizer=tokenizer,
+    device=-1,              # -1 means run on CPU; set to 0 for GPU if available
+)
+
+def ask(query: str):
+    """
+    Function to query the fine-tuned model.
+    - Adds the training prefix for consistency
+    - Runs generation deterministically (no sampling)
+    - Returns the generated pandas code
+    """
+    prompt = f"{PROMPT_PREFIX}{query}"
+    out = gen(
+        prompt,
+        do_sample=False,     # Deterministic output, no randomness
+        num_beams=1,         # Simple greedy decoding
+        max_new_tokens=48,   # Limit on generated token length
+    )[0]["generated_text"]
+    return out
 
 if __name__ == "__main__":
+    # Simple CLI loop for interactive inference
     while True:
         query = input("Ask: ")
         print(ask(query))
