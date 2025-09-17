@@ -1,4 +1,3 @@
-# src/app.py
 import gradio as gr
 from infer import ask
 
